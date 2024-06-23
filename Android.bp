@@ -64,6 +64,7 @@ android_app_import {
 	name: "TrustZoneAccessService",
 	owner: "shift",
 	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
