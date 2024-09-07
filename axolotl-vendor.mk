@@ -931,7 +931,7 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    vendor.qti.gnss@3.0-service
+    vendor.qti.gnss@3.0-service.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
@@ -949,4 +949,4 @@ PRODUCT_COPY_FILES += \
     vendor/shift/axolotl/proprietary/vendor/lib64/libwvhidl@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl@1.3.so
 
 PRODUCT_PACKAGES += \
-    manifest_android.hardware.drm@1.3-service.widevine
+    manifest_android.hardware.drm@1.3-service.widevine.xml
